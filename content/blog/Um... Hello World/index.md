@@ -4,8 +4,6 @@ date: "2021-08-01T22:12:03.284Z"
 description: "My coding journey - Why I love CSS"
 ---
 
-# My CSS BFF
-
 HTML gave me a simple foundation in my journey to becoming a developer. It followed me through my career in digital content manangement and marketing. In my early days, I saw it as some archaic language and I couldn't understand why I had to code in my blog styles when so many user-friendly editors were available at the time. It was time consuming, confusing and I had no interest in learning it.
 
 And yet it kept following me. In the past year, I challenged myself to code a HTML email for work. I really had no idea what I was doing but it seemed logical enough. It was strangely satisfying to see everything come together. I started to realise that HTML wasn't archaic at all and it is basically the skeleton of digital world.
