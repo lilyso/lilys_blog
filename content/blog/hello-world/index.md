@@ -1,235 +1,45 @@
 ---
-title: Hello World
-date: "2015-05-01T22:12:03.284Z"
-description: "Hello World"
+title: My CSS BFF
+date: "2021-08-01T22:12:03.284Z"
+description: "My coding journey - Why I love CSS"
 ---
 
-This is my first post on my new fake blog! How exciting!
+# My CSS BFF
 
-I'm sure I'll write a lot more interesting things in the future.
+HTML gave me a simple foundation in my journey to becoming a developer. It followed me through my career in digital content manangement and marketing. In my early days, I saw it as some archaic language and I couldn't understand why I had to code in my blog styles when so many user-friendly editors were available at the time. It was time consuming, confusing and I had no interest in learning it.
 
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](https://en.wikipedia.org/wiki/Salted_duck_egg).
+And yet it kept following me. In the past year, I challenged myself to code a HTML email for work. I really had no idea what I was doing but it seemed logical enough. It was strangely satisfying to see everything come together. I started to realise that HTML wasn't archaic at all and it is basically the skeleton of digital world.
 
-> A salted duck egg is a Chinese preserved food product made by soaking duck
-> eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-> supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-> charcoal paste. The eggs may also be sold with the salted paste removed,
-> wrapped in plastic, and vacuum packed. From the salt curing process, the
-> salted duck eggs have a briny aroma, a gelatin-like egg white and a
-> firm-textured, round yolk that is bright orange-red in color.
+Long story short, after realising I hated working in marketing, I finally made the decision to go to coding school to embark on a new career path. I'm currently enrolled in the Sydney Uni Coding Bootcamp run by Trilogy and it has been intense but incredibly fulfilling. After working on some dodgy websites and using websites with terrible UX, coding school started to answer the questions I had for so many years, problems that I wish I could fix but had no idea how.
 
-![Lily](./lily.jpg)
+When CSS came along it was like putting on a pair of shoes that fit perfectly, especially when your feet are wider than most and one foot is a half size bigger than the other, this is a dream! And suddenly the possibilities were endless.
 
-You can also write code blocks here!
+<img src="https://pics.awwmemes.com/when-you-finally-get-the-css-working-correctly-72504437.png" width="50%" />
 
-```js
-const saltyDuckEgg = "chinese preserved food product"
-```
+Image credit [@awwmemes](https://awwmemes.com/i/when-you-finally-get-the-css-working-correctly-95ba23634a5849f0928b28a61420a22a)
 
-```html
-<body></body>
-```
+Learning CSS has been a good challenge and I can't quite describe the satisfaction I get when words, images, elements just snap into place, just the way you imagined. I'm still figuing out flexbox but it has been fun figuring it out.
 
-| Number | Title                                    | Year |
-| :----- | :--------------------------------------- | ---: |
-| 1      | Harry Potter and the Philosopher’s Stone | 2001 |
-| 2      | Harry Potter and the Chamber of Secrets  | 2002 |
-| 3      | Harry Potter and the Prisoner of Azkaban | 2004 |
+However, it was never this easy or perfect. There are still many developers who hate CSS. Before Flexbox and Grid came onto the scene in 2009 and 2007 respectively, it was a struggle to get elements to fit resposively on the screen. And with so many screen sizes nowadays, it would have been so annoying. The only options were Float and Clear to offer some structure to image and text elements. I came into it at a good time where the know bugs with Flexbox had been resolved and more browsers were compatible. Grid still has moe compatibility issues than Flexbox but it's quickly becoming more popular.
 
-[View raw (TEST.md)](https://raw.github.com/adamschwartz/github-markdown-kitchen-sink/master/README.md)
+<img src="https://i.imgur.com/9qzBYbH.jpeg" width="50%"/>
 
-This is a paragraph.
+Image credit [@imgur](https://imgur.com/gallery/9qzBYbH)
 
-    This is a paragraph.
-
-# Header 1
-
-## Header 2
-
-    Header 1
-    ========
-
-    Header 2
-    --------
-
-# Header 1
-
-## Header 2
-
-### Header 3
-
-#### Header 4
-
-##### Header 5
-
-###### Header 6
-
-    # Header 1
-    ## Header 2
-    ### Header 3
-    #### Header 4
-    ##### Header 5
-    ###### Header 6
-
-# Header 1
-
-## Header 2
-
-### Header 3
-
-#### Header 4
-
-##### Header 5
-
-###### Header 6
-
-    # Header 1 #
-    ## Header 2 ##
-    ### Header 3 ###
-    #### Header 4 ####
-    ##### Header 5 #####
-    ###### Header 6 ######
-
-> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
-
-    > Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
-
-> ## This is a header.
+> ## Flexbox Traps
 >
-> 1. This is the first list item.
-> 2. This is the second list item.
+> Here are some mistakes and misunderstandings I made with Flexbox as a newbie.
 >
-> Here's some example code:
+> 1. Flex containers by default are displayed horizontally.
 >
->     Markdown.generate();
+> While divs are diplayed vertically by default, you will see your layout .change once you apply flex to your sections. In the beginning, I didn't plan my sections all too well and resorted to flexbox as a fix to have my page layout change completely due to the default.
+>
+> 2. The flex container will take up the minimum amount of space based on its content.
+>
+> I found lot of the tutorials misleading as the illusrated demonstrations showed perfect containers fitting perfectly on the page. It seems obvious now but it took me a while to understand the idea of available space and how to manipulate it using flex grow/shrink and space evenly/between along with the right padding and margins.
+>
+> 3. Centering
+>
+> I have spent too much time trying to center the content in a container. My misunderstanding of available space was my downfall. The problem was I that kept trying to center content when I had not allocated the container. It was like trying to put a box in the middle of a room but you're stuck in the hallway. Adding a div around the element and then centering will do the trick in most cases.
 
-    > ## This is a header.
-    > 1. This is the first list item.
-    > 2. This is the second list item.
-    >
-    > Here's some example code:
-    >
-    >     Markdown.generate();
-
-- Red
-- Green
-- Blue
-
-* Red
-* Green
-* Blue
-
-- Red
-- Green
-- Blue
-
-```markdown
-- Red
-- Green
-- Blue
-
-* Red
-* Green
-* Blue
-
-- Red
-- Green
-- Blue
-```
-
-- `code goes` here in this line
-- **bold** goes here
-
-```markdown
-- `code goes` here in this line
-- **bold** goes here
-```
-
-1. Buy flour and salt
-1. Mix together with water
-1. Bake
-
-```markdown
-1. Buy flour and salt
-1. Mix together with water
-1. Bake
-```
-
-1. `code goes` here in this line
-1. **bold** goes here
-
-```markdown
-1. `code goes` here in this line
-1. **bold** goes here
-```
-
-Paragraph:
-
-    Code
-
-<!-- -->
-
-    Paragraph:
-
-        Code
-
----
-
----
-
----
-
----
-
----
-
-    * * *
-
-    ***
-
-    *****
-
-    - - -
-
-    ---------------------------------------
-
-This is [an example](http://example.com "Example") link.
-
-[This link](http://example.com) has no title attr.
-
-This is [an example][id] reference-style link.
-
-[id]: http://example.com "Optional Title"
-
-    This is [an example](http://example.com "Example") link.
-
-    [This link](http://example.com) has no title attr.
-
-    This is [an example] [id] reference-style link.
-
-    [id]: http://example.com "Optional Title"
-
-_single asterisks_
-
-_single underscores_
-
-**double asterisks**
-
-**double underscores**
-
-    *single asterisks*
-
-    _single underscores_
-
-    **double asterisks**
-
-    __double underscores__
-
-This paragraph has some `code` in it.
-
-    This paragraph has some `code` in it.
-
-![Alt Text](https://placehold.it/200x50 "Image Title")
-
-    ![Alt Text](https://placehold.it/200x50 "Image Title")
+I'm looking forward to exploring some CSS frameworks that are meant to make design even more efficient!

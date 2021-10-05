@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Lilys Web Dev Journal`,
+    title: `Lily So's Web Dev Journal`,
     author: {
       name: `Lily So`,
-      summary: `who is studying web development.`,
+      summary: `Follow my journey from noob to full stack and beyond...`,
     },
-    description: `One persons journey through the world of web development.`,
+    description: `One person's journey through the world of web development.`,
     siteUrl: `https://solilyso.com/`,
     social: {
-      twitter: `lilysomusic`,
+      github: `lilyso`,
     },
   },
   plugins: [
